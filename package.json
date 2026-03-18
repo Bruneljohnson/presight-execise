@@ -1,6 +1,7 @@
 {
   "name": "presight-execise",
   "version": "1.0.0",
+  "private": true,
   "repository": "",
   "author": "",
   "license": "MIT",
@@ -9,7 +10,8 @@
     "server"
   ],
   "scripts": {
-    "start": "lerna run start"
+    "start": "lerna run start",
+    "test": "lerna run test --concurrency 1"
   },
   "devDependencies": {
     "lerna": "~8.2.1"
