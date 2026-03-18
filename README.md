@@ -1,6 +1,7 @@
 # Presight Frontend Exercise
 
-## Video Demo [Presight Video](https://github.com/user-attachments/assets/bf8bb070-7acc-4cca-b1e9-f3dcd46ec305)
+## Video Demo 
+[Presight Video](https://github.com/user-attachments/assets/bf8bb070-7acc-4cca-b1e9-f3dcd46ec305)
 
 The video walkthrough demonstrates all three tasks running in the completed application:
 
