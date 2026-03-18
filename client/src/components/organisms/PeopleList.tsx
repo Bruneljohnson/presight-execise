@@ -3,16 +3,7 @@ import { useVirtualizer } from "@tanstack/react-virtual";
 import { Input } from "@/components/ui/input";
 import PersonCard from "@/components/molecules/PersonCard";
 import { useFetch } from "@/hooks/useFetch";
-
-interface Person {
-  id: string;
-  avatar: string;
-  first_name: string;
-  last_name: string;
-  age: number;
-  nationality: string;
-  hobbies: string[];
-}
+import type { Person } from "@/types";
 
 interface PeopleResponse {
   data: Person[];

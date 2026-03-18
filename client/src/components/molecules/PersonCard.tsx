@@ -1,15 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
-interface Person {
-  id: string;
-  avatar: string;
-  first_name: string;
-  last_name: string;
-  age: number;
-  nationality: string;
-  hobbies: string[];
-}
+import type { Person } from "@/types";
 
 export default function PersonCard({ person }: { person: Person }) {
   const [firstHobby, secondHobby, ...remainingHobbies] = person.hobbies;
